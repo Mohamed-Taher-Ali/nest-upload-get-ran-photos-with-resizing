@@ -1,0 +1,33 @@
+=====================================================================================================================================
+======================================================= =D=O=C=S= ===================================================================
+=====================================================================================================================================
+
+
+setup ::
+    1- install imagemagick as an external executable file.
+    2- git clone >> https://github.com/Mohamed-Taher-Ali/nest-upload-get-ran-photos-with-resizing
+    3- enter root folder
+    4- in terminal >> yarn
+    5- BASE_URL >> http://localhost:3000/api/
+
+
+controllers ::
+    1- photos/
+        POST    upload >> upload file image with field name "photo"
+        GET     random >> no params return eg.
+            {
+                "id": 5,
+                "name": "localhost:3000/uploads/a5b0ce1ffc0b85bb5d1391b72f0e5139",
+                "createdAt": "2022-06-21T09:51:10.868Z",
+                "updatedAt": "2022-06-21T09:51:10.868Z"
+            }
+
+
+notes ::
+    ways that facilitated the work
+        1- decoration to handle file
+        2- strategy pattern for encryption
+        4- re-usable methods
+        5- nest-js for modularization
+        6- type-script for organizing & OOP
+        7- injection and SOLID principals
