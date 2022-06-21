@@ -1,0 +1,49 @@
+{
+	"variables": [],
+	"info": {
+		"name": "photos",
+		"_postman_id": "da378a7a-4ba6-7cb2-ecb1-c522e625582c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/photos/random",
+			"request": {
+				"url": "http://localhost:3000/api/photos/random",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/photos/upload",
+			"request": {
+				"url": "http://localhost:3000/api/photos/upload",
+				"method": "POST",
+				"header": [
+					{
+						"key": "authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImE3NDZmZmE1LWZiMjctNDY2My1hOThkLTdmYjRhYWQwNDI2YiIsImlhdCI6MTY1Mjc3Njc1OH0.9n-XcMkj40J2xbfuXeSanR-Y1xUUu3o8CA2pdOjNaYk",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "photo",
+							"value": "",
+							"description": "",
+							"type": "file"
+						}
+					]
+				},
+				"description": "get-users"
+			},
+			"response": []
+		}
+	]
+}
